@@ -1,14 +1,18 @@
 #include <stdio.h>
 
 /**
- * write alphabets in lowercase
+ * main - write alphabets in lowercase
+ * Return: Always 0
  */
 int main(void)
 {
-	int i;
+	char i;
+
 
 	for (i = 'a'; i < 'z'; i++)
-	{putchar("%c", i);
+	{
+		putchar(i);
 	}
+	putchar('\n');
 	return (0);
 }
