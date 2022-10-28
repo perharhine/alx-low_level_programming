@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.hi"
 
 /**
  * *cap_string - capitalizes words of a string
@@ -11,7 +11,7 @@ char *cap_string(char *str)
 
 	while (str[i])
 	{
-		while (!(str[i]) >= 'a' && str[i] <= 'z')
+		while (!(str[i] >= 'a' && str[i] <= 'z'))
 
 
 			i++;
